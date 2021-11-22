@@ -1,0 +1,424 @@
+
+/* Google Fonts Link  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap');
+
+/* Deafault Css  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    list-style: none;
+}
+
+.pt-100{
+	padding-top: 60px;
+}
+.pb-100{
+	padding-bottom: 60px;
+}
+a{
+    text-decoration: none;
+}
+
+/* Header Section Css Start Here  */
+.imagine-header {
+	padding: 15px 0;
+	border-bottom: 1px solid #97455F;
+}
+
+.left-social ul li {
+    display: inline-block;
+    margin-right: 5px;
+}
+.right-site{
+    position: relative;
+}
+.right-site ul li {
+    display: inline-block;
+  
+}
+
+.left-social ul li a {
+	background: #D2D2D2;
+	color: #fff;
+	width: 35px;
+	height: 35px;
+	display: block;
+	text-align: center;
+	line-height: 35px;
+	border-radius: 50%;
+	font-size: 19px;
+    transition: .4s;
+}
+
+.left-social ul li a:hover{
+    background: #EE802F;
+}
+
+.right-site ul li a {
+	color: #97455F;
+	font-weight: 500;
+	font-size: 17px;
+}
+
+.header-minus {
+	position: absolute;
+	right: 0;
+	bottom: -60px;
+}
+  .header-minus i {
+    background: #97455F;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 23px;
+  }
+
+/* Header Section Css End Here  */
+
+/* Search Logo Section Start Here  */
+
+.search-logo {
+	background: #ebebeb;
+	padding-top: 65px;
+	padding-bottom: 100px;
+}
+
+.logo h2 {
+    color: #333;
+    font-size: 62px;
+    font-weight: 600;
+}
+.logo h2 span {
+    font-size: 40px;
+}
+.text {
+	padding-left: 25px;
+	border-left: 2px solid #999;
+}
+
+.text h3 {
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: #999;
+}
+
+.search-section form input {
+	padding: 10px 20px;
+	text-transform: capitalize;
+	font-size: 17px;
+	font-weight: 500;
+	width: 365px;
+	border: none;
+	outline: none;
+    border-radius: 5px;
+}
+  
+
+  .search-section{
+      position: relative;
+  }
+
+  .search-section form input[type="submit"] {
+	border: 0;
+	background: #97455F;
+	padding: 10px 20px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	top: 0;
+    width: auto;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+}
+/* Search Logo Section End Here  */
+
+/* Menu Section Start here  */
+.navbar {
+	padding-top: 0;
+	padding-bottom: 0;
+	background: #97455F;
+	border-radius: 5px 5px 0 0;
+	margin-top: 60px;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #Fff;
+	font-size: 17px;
+	text-transform: capitalize;
+	font-weight: 400;
+	margin-right: 15px;
+	padding: 0.8rem 1rem;
+}
+.navbar-light .navbar-nav .nav-link.active{
+	background: #6A3144;
+	color: #fff;
+	border-radius: 5px 0 0 5px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+	background: #6A3144;
+	color: #fff;
+}
+.navbar-toggler:focus {
+	box-shadow: none;
+}
+
+.carousel-indicators [data-bs-target] {
+	box-sizing: content-box;
+	width: 12px;
+	height: 12px;
+	margin-right: 5px;
+	margin-left: 5px;
+	border-radius: 50%;
+	border: 4px solid #333;
+	background: #333;
+	opacity: 1;
+}
+
+
+.carousel-indicators {
+	bottom: -50px;
+}
+
+.slider-site {
+	margin-top: -50px;
+}
+
+.carousel-caption {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	transform: translate(-50%,-50%);
+}
+
+.carousel-indicators .active {
+	background: #fff !important;
+}
+/* Menu Section End here  */
+
+/* Cmn Title Section Start Here  */
+
+
+.cmn-title {
+	position: relative;
+	font-size: 35px;
+	text-transform: capitalize;
+	font-weight: 500;
+}
+.cmn-title::after {
+	content: "";
+	position: absolute ;
+	top: 50%;
+	left: 0;
+	width: 40%;
+	height: 5px;
+	background: #ddd;
+	transform: translateY(-50%);
+}
+.cmn-title::before {
+	content: "";
+	position: absolute;
+	right: 0;
+	top: 50%;
+	background: #ddd;
+	width: 40%;
+	height: 5px;
+	transform: translateY(-50%);
+}
+
+
+
+/* Cmn Title Section End Here  */
+
+/* Title Section Start Here  */
+
+.photo img {
+	width: 100%;
+}
+
+.single-title {
+	margin-bottom: 35px;
+}
+
+/* Title Section End Here  */
+
+/* Ano Title Section Start Here  */
+
+.ano-left .cmn-title::before {
+	width: 30%;
+  }
+  .ano-left .cmn-title::after {
+	width: 30%;
+  }
+.ano-right .cmn-title::before {
+	width: 30%;
+  }
+  .ano-right .cmn-title::after {
+	width: 30%;
+  }
+
+  .left-img img {
+	width: 80%;
+	border-radius: 500%;
+}
+
+
+.left-text h4 {
+	font-size: 25px;
+	font-weight: 500;
+	text-transform: capitalize;
+  }
+  .left-text p {
+	font-size: 17px;
+	font-weight: 400;
+	color: #555;
+  }
+  .left-text a {
+	display: inline-block;
+	background: crimson;
+	width: auto;
+	padding: 6px 12px;
+	color: #fff;
+	font-weight: 500;
+	border-radius: 5px;
+  }
+
+  
+.upp-ico i {
+	font-size: 68px;
+	color: #ddd;
+	display: block;
+	margin-right: 30px;
+  }
+  .ano-upp {
+	margin-bottom: 15px;
+  }
+  .upp-text h5 {
+	font-size: 26px;
+	text-transform: uppercase;
+	font-weight: 500;
+  }
+  .upp-text a {
+	color: crimson;
+	font-size: 18px;
+	text-transform: capitalize;
+	font-weight: 500;
+  }
+  .ano-down p {
+	font-size: 17px;
+	line-height: 1.7;
+	font-weight: 500;
+	color: #666;
+}
+
+/* Ano Title Section End Here  */
+
+/* Contact Site Css  */
+
+.con-main {
+	background: #97455f;
+	padding: 35px 30px;
+	border-radius: 15px;
+  }
+  .context h2 {
+	color: #fff;
+	font-size: 38px;
+	font-weight: 500;
+  }
+  .context p {
+	margin-bottom: 0;
+	font-size: 18px;
+	color: #fff;
+	font-weight: 400;
+  }
+  .conbtn button {
+	border: 0;
+	padding: 10px 20px;
+	font-weight: 500;
+	font-size: 20px;
+	background: #fff;
+	color: #97455f;
+	border-radius: 5px;
+  }
+
+/* Contact Site Css  */
+
+/* The blog Site Css  */
+
+.the-blog {
+	background: #ebebeb;
+}
+
+.blog-row {
+	border-bottom: 2px solid #bcbcbc;
+}
+.blog-img img {
+	width: 100%;
+	border-radius: 5px;
+  }
+  .blog-text h4 {
+	font-size: 25px;
+	text-transform: capitalize;
+	font-weight: 500;
+  }
+  .blog-text p {
+	font-size: 17px;
+	font-weight: 400;
+	color: #666;
+  }
+  .blog-title {
+	font-size: 30px;
+	text-transform: capitalize;
+	color: #000;
+  }
+  .address {
+	margin-bottom: 40px;
+  }
+  .address ul li {
+	font-size: 18px;
+	margin: 9px 0;
+	font-weight: 400;
+	text-transform: capitalize;
+  }
+  .phone {
+	margin-bottom: 35px;
+  }
+  .phone a {
+	display: block;
+	margin-bottom: 15px;
+	font-size: 17px;
+	text-transform: capitalize;
+	color: #333;
+	font-weight: 400;
+  }
+  .off-time span {
+	font-size: 18px;
+	text-transform: capitalize;
+	font-weight: 500;
+	margin-bottom: 20px;
+	display: inline-block;
+	color: #333;
+  }
+  .copy-text p , .right-text p {
+	font-size: 18px;
+	text-transform: capitalize;
+	font-weight: 500;
+  }
+
+/* The blog Site Css  */
